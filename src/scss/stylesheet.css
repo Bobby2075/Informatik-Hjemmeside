@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #dddddd;
+}
+
+.wrapper {
+  background-color: white !important;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+  background-color: white;
+}
+
+.wrapper nav {
+  width: 814px;
+  height: 70px;
+}
+
+.wrapper nav .logo {
+  float: left;
+  max-width: 138px;
+  max-height: 70px;
+}
+
+.wrapper nav .logo img {
+  max-width: 138px;
+  max-height: 70px;
+}
+
+.wrapper .slideshow {
+  margin-top: 43px;
+  width: auto;
+  height: 371px;
+}
+
+.wrapper .slideshow img {
+  width: auto;
+  height: 371px;
+}
+/*# sourceMappingURL=stylesheet.css.map */
