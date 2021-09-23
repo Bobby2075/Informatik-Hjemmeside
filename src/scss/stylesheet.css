@@ -35,10 +35,22 @@ body {
   margin-top: 43px;
   width: auto;
   height: 371px;
+  position: relative;
 }
 
-.wrapper .slideshow img {
-  width: auto;
+.wrapper .slideshow .image {
+  width: 100%;
   height: 371px;
+}
+
+.wrapper .tilbud article {
+  padding: 0 157px 0 157px;
+}
+
+.wrapper .tilbud img {
+  width: 82px;
+  height: 82px;
+  margin-top: 82px;
+  padding: 0 161px 0 161px;
 }
 /*# sourceMappingURL=stylesheet.css.map */
