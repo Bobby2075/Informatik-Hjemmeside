@@ -20,6 +20,17 @@ body {
   height: 70px;
 }
 
+.wrapper nav ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 4rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .wrapper nav .logo {
   float: left;
   max-width: 138px;
@@ -43,14 +54,38 @@ body {
   height: 371px;
 }
 
-.wrapper .tilbud article {
-  padding: 0 157px 0 157px;
+.wrapper .tilbud {
+  background-color: black;
+  margin-top: 82px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  justify-items: center;
 }
 
 .wrapper .tilbud img {
-  width: 82px;
-  height: 82px;
-  margin-top: 82px;
-  padding: 0 161px 0 161px;
+  padding: 5rem 0 5rem 0;
+  width: 5rem;
+}
+
+.wrapper .kontak {
+  margin-top: 12px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.wrapper .kontak .redbox {
+  background-color: #c93434;
+  padding: 0 0 0 18px;
+}
+
+.wrapper .kontak .bluebox {
+  background-color: #336699;
+  padding: 0 18px 0 0;
 }
 /*# sourceMappingURL=stylesheet.css.map */
