@@ -38,12 +38,12 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: black;
+  background-color: white;
 }
 
 .wrapper nav li {
   list-style-type: none;
-  float: left;
+  float: right;
 }
 
 .wrapper nav li a {
@@ -58,11 +58,13 @@ body {
   float: left;
   max-width: 138px;
   max-height: 70px;
+  margin-top: .6rem;
+  margin-left: .7rem;
 }
 
 .wrapper nav .logo img {
   max-width: 138px;
-  max-height: 70px;
+  max-height: 50px;
 }
 
 .wrapper .slideshow {
