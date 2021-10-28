@@ -16,7 +16,8 @@ body {
 }
 
 .wrapper nav {
-  width: 814px;
+  /*width: 744px + 70px;*/
+  width: auto;
   height: 70px;
   /* Change the link color to #111 (black) on hover */
   /*li a:hover {
@@ -33,10 +34,17 @@ body {
         }*/
 }
 
+.wrapper nav .navn {
+  float: left;
+  margin-top: 1.2rem;
+  padding-left: .5rem;
+}
+
 .wrapper nav ul {
   list-style-type: none;
-  margin: 0;
+  margin-left: 0;
   padding: 0;
+  padding-top: 0.5rem;
   overflow: hidden;
   background-color: white;
 }
@@ -50,7 +58,8 @@ body {
   display: block;
   color: black;
   text-align: center;
-  padding: 26px 16px;
+  /*padding: 14px + 15px - 3px 16px;*/
+  padding: 1rem;
   text-decoration: none;
 }
 
@@ -96,7 +105,8 @@ body {
 }
 
 .wrapper .kontak {
-  margin-top: 12px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -106,11 +116,13 @@ body {
 
 .wrapper .kontak .redbox {
   background-color: #c93434;
+  border-radius: 8px;
   padding: 0 0 0 18px;
 }
 
 .wrapper .kontak .bluebox {
   background-color: #336699;
+  border-radius: 8px;
   padding: 0 18px 0 0;
 }
 /*# sourceMappingURL=stylesheet.css.map */
