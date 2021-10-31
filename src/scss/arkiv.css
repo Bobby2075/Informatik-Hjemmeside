@@ -1,6 +1,73 @@
+/** {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dddddd;
+}
+
+.wrapper {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: white !important;
+    margin-right: auto;
+    margin-left: auto;
+
+    max-width: 960px;
+
+    background-color: white;
+    nav {
+        
+        width: auto;
+        height: 70px;
+
+        .navn {
+            float: left;
+            margin-top: 1.2rem;
+            padding-left: .5rem;
+        }
+
+        ul {
+            list-style-type: none;
+            margin-left: 0;
+            padding: 0;
+            padding-top: 0.5rem;
+            overflow: hidden;
+            background-color:white;
+          }
+          
+          li {
+            list-style-type: none;
+            float: right;
+          }
+          
+          li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 1rem;
+            text-decoration: none;
+          }
+
+        .logo {
+            float: left;
+            max-width: 138px;
+            max-height: 70px;
+            margin-top: .6rem;
+            margin-left: .7rem;
+
+            img {
+                
+                max-width: 138px;
+                max-height: 50px;
+            }
+        }
+    }*/
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Valera Round', sans-serif;
 }
 
 body {
@@ -12,11 +79,9 @@ body {
   margin-right: auto;
   margin-left: auto;
   max-width: 960px;
-  background-color: white;
 }
 
 .wrapper nav {
-  /*width: 744px + 70px;*/
   width: auto;
   height: 70px;
 }
@@ -24,7 +89,11 @@ body {
 .wrapper nav .navn {
   float: left;
   margin-top: 1.2rem;
-  padding-left: .5rem;
+}
+
+.wrapper nav .titel a {
+  text-decoration: none;
+  color: #c93434;
 }
 
 .wrapper nav ul {
@@ -45,7 +114,6 @@ body {
   display: block;
   color: black;
   text-align: center;
-  /*padding: 14px + 15px - 3px 16px;*/
   padding: 1rem;
   text-decoration: none;
 }
@@ -63,12 +131,34 @@ body {
   max-height: 50px;
 }
 
-.wrapper .billed img {
+.wrapper {
+  margin-top: 18px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.slideshow {
+  margin-top: 43px;
+  width: auto;
+  height: 371px;
+  position: relative;
+}
+
+.slideshow .image {
   width: 100%;
   height: 371px;
 }
 
-.wrapper .content {
+.titel {
+  -webkit-transform: translate(15px);
+          transform: translate(15px);
+}
+
+/*.billed img {
+        width: 100%;
+        height: 371px;
+    }*/
+.content {
   margin-top: 3rem;
   padding-bottom: 2rem;
   display: -ms-grid;
@@ -79,19 +169,19 @@ body {
   grid-auto-rows: minmax(100px, auto);
 }
 
-.wrapper .content img {
+.content img {
   width: 331px;
   height: 262px;
   -webkit-transform: translate(4.5rem);
           transform: translate(4.5rem);
 }
 
-.wrapper .content h3 {
+.content h3 {
   width: 326.5px;
   border: 2px;
   border-style: solid;
   border-color: black;
-  -webkit-transform: translate(4.5rem, -10px);
-          transform: translate(4.5rem, -10px);
+  -webkit-transform: translate(4.5rem, -15px);
+          transform: translate(4.5rem, -15px);
 }
 /*# sourceMappingURL=arkiv.css.map */

@@ -6,35 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../SCSS/arkiv.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">;
+    <link rel="preconnect" href="https://fonts.gstatic.com"; crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"; rel="stylesheet">
+    <title>Archive</title>
 </head>
 <body>
     <div class="wrapper">
         <nav>
             <div class="logo"><img src="../img/logobutbetter.png" alt=""></div>
-            <div class="navn"><h1>Government Conspiracy</h1></div>
+            <div class="navn">
+                <h1 class="titel"><a href="./index.html">Government Conspiracy</a></h1></div>
             <ul>
-                <li><a href="./flat-earth.html">Flad jord</a></li>
-                <li><a href="./moon-landing.html">Måne landing</a></li>
+                <li><a href="./flat-earth.html">Flat Earth</a></li>
+                <li><a href="./moon-landing.html">Moon Landing</a></li>
                 <li><a href="./covid19.html">Covid-19</a></li>
-                <li><a href="./archive.html">Arkiv</a></li>
+                <li><a href="./archive.html">Archive</a></li>
             </ul>
         </nav>
-
-        <div class="billed">
-            <img src="../img/image 2.jpg" alt="">
+        <div class="slideshow">
+            <div class="slide-content">
+                <img class="image" src="../img/con_-_Moonlanding.jpeg" alt="image 1">
+                <img class="image" src="../img/flat-earth.jpg" alt="image 2">
+                <img class="image" src="../img/covid.jpg" alt="image 3">
+                <img class="image" src="../img/5g.jpg" alt="image 4">
+            </div>
         </div>
+
+        <!--<div class="billed">
+            <img src="../img/image 2.jpg" alt="">
+        </div>-->
 
         <div class="content">
-            <img src="../img/image 1.jpg" alt="">
-            <img src="../img/image 2.jpg" alt="">
-            <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, explicabo?</h3>
-            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, maxime?</h3>
-            <img src="../img/image 3.PNG" alt="">
-            <img src="../img/image 4.jpg" alt="">
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, inventore.</h3>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, inventore.</h3>
+            <a href="./moon-landing.html"><img src="../img/con_-_Moonlanding.jpeg" alt=""></a>
+            <a href="./covid19.html"><img src="../img/covid.jpg" alt=""></a>
+            <h3>Have you ever wondered if the moonlanding is real?</h3>
+            <h3>Do masks and vaccines actually work, or is the government lying to you?</h3>
+            <a href="./flat-earth.html"><img src="../img/flat-earth.jpg" alt=""></a>
+            <img src="../img/5g.jpg" alt="">
+            <h3>Do you really think the earth is round? read this and think again</h3>
+            <h3>WORK IN PROGRESS</h3>
         </div>
     </div>
+
+
+
+    <script src="../js/slideshow.js"></script>
 </body>
 </html>
