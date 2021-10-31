@@ -1,7 +1,13 @@
 @import 'base';
 
+.wrapper {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
 .titel {
     transform: translate(15px);
+    color: $red-color;
 }
 
 .slideshow {
@@ -18,7 +24,7 @@
 
 .tilbud {
     background-color: black;
-    margin-top: 82px;
+    margin-top: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
@@ -32,18 +38,24 @@
 
 .kontak {
     margin-top: 1rem;
-    margin-bottom: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 24px;
+
+    img {
+        width: 50%;
+    }
         
+    p {
+        padding-inline: 16px;
+        color: white;
+    }
 
     .redbox {
         background-color: $red-color;
         border-radius: 8px;
         padding: 0 0 0 18px;
 
-            
     }
 
     .bluebox {
