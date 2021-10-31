@@ -68,7 +68,6 @@ body {
 @import 'base';
 
     .wrapper {
-        margin-top: 18px;
         padding-bottom: 20px;
         margin-bottom: 20px;
     }
@@ -109,6 +108,7 @@ body {
         }
 
         h3{
+            text-align: center;
             width: 326.5px;
             border: 2px;
             border-style: solid;

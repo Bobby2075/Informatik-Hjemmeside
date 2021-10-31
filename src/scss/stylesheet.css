@@ -65,9 +65,15 @@ body {
   max-height: 50px;
 }
 
+.wrapper {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
 .titel {
   -webkit-transform: translate(15px);
           transform: translate(15px);
+  color: #c93434;
 }
 
 .slideshow {
@@ -84,7 +90,7 @@ body {
 
 .tilbud {
   background-color: black;
-  margin-top: 82px;
+  margin-top: 1rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
@@ -100,12 +106,20 @@ body {
 
 .kontak {
   margin-top: 1rem;
-  margin-bottom: 1rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
   gap: 24px;
+}
+
+.kontak img {
+  width: 50%;
+}
+
+.kontak p {
+  padding-inline: 16px;
+  color: white;
 }
 
 .kontak .redbox {
